@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-neutral.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-neutral.scss"
+	],
+	"sourcesContent": [
+		"$cloud: \"\\f041\";\n$cloudy: \"\\f013\";\n$cloudy-gusts: \"\\f011\";\n$cloudy-windy: \"\\f012\";\n$fog: \"\\f014\";\n$hail: \"\\f015\";\n$rain: \"\\f019\";\n$rain-mix: \"\\f017\";\n$rain-wind: \"\\f018\";\n$showers: \"\\f01a\";\n$sleet: \"\\f0b5\";\n$snow: \"\\f01b\";\n$sprinkle: \"\\f01c\";\n$storm-showers: \"\\f01d\";\n$thunderstorm: \"\\f01e\";\n$snow-wind: \"\\f064\";\n$snow: \"\\f01b\";\n$smog: \"\\f074\";\n$smoke: \"\\f062\";\n$lightning: \"\\f016\";\n$raindrops: \"\\f04e\";\n$raindrop: \"\\f078\";\n$dust: \"\\f063\";\n$snowflake-cold: \"\\f076\";\n$windy: \"\\f021\";\n$strong-wind: \"\\f050\";\n$sandstorm: \"\\f082\";\n$earthquake: \"\\f0c6\";\n$fire: \"\\f0c7\";\n$flood: \"\\f07c\";\n$meteor: \"\\f071\";\n$tsunami: \"\\f0c5\";\n$volcano: \"\\f0c8\";\n$hurricane: \"\\f073\";\n$tornado: \"\\f056\";\n$small-craft-advisory: \"\\f0cc\";\n$gale-warning: \"\\f0cd\";\n$storm-warning: \"\\f0ce\";\n$hurricane-warning: \"\\f0cf\";\n$wind-direction: \"\\f0b1\";"
+	],
+	"mappings": "",
+	"names": []
+}

@@ -1,0 +1,2939 @@
+@charset "UTF-8";
+/*!
+ *  Weather Icons 2.0
+ *  Updated August 1, 2015
+ *  Weather themed icons for Bootstrap
+ *  Author - Erik Flowers - erik@helloerik.com
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ *  ------------------------------------------------------------------------------
+ *  Maintained at http://erikflowers.github.io/weather-icons
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - Font licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS, SCSS and LESS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion with Font Awesome
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ */
+@font-face {
+  font-family: "weathericons";
+  src: url("../fonts/weathericons-regular-webfont.eot");
+  src: url("../fonts/weathericons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/weathericons-regular-webfont.woff2") format("woff2"), url("../fonts/weathericons-regular-webfont.woff") format("woff"), url("../fonts/weathericons-regular-webfont.ttf") format("truetype"), url("../fonts/weathericons-regular-webfont.svg#weather_iconsregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi {
+  display: inline-block;
+  font-family: "weathericons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi-fw {
+  width: 1.4em;
+  text-align: center;
+}
+
+/* line 48, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 49, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 50, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 52, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 53, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/weather-icons-core.scss */
+.wi-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-sunny:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-cloudy:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-cloudy-gusts:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-cloudy-windy:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-fog:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-hail:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-haze:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-lightning:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-rain:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-rain-mix:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-rain-wind:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-showers:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-sleet:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-sleet-storm:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-snow:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-snow-thunderstorm:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-snow-wind:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-sprinkle:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-storm-showers:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-sunny-overcast:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-thunderstorm:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-windy:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-solar-eclipse:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-hot:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-cloudy-high:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-day.scss */
+.wi-day-light-wind:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-clear:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-cloudy:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-cloudy-gusts:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-cloudy-windy:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-hail:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-lightning:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-rain:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-rain-mix:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-rain-wind:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-showers:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-sleet:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-sleet-storm:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-snow:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-snow-thunderstorm:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-snow-wind:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-sprinkle:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-storm-showers:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-thunderstorm:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-cloudy:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-cloudy-gusts:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-cloudy-windy:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-fog:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-hail:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-lightning:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-partly-cloudy:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-rain:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-rain-mix:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-rain-wind:before {
+  content: "";
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-showers:before {
+  content: "";
+}
+
+/* line 30, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-sleet:before {
+  content: "";
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-sleet-storm:before {
+  content: "";
+}
+
+/* line 32, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-snow:before {
+  content: "";
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-snow-thunderstorm:before {
+  content: "";
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-snow-wind:before {
+  content: "";
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-sprinkle:before {
+  content: "";
+}
+
+/* line 36, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-storm-showers:before {
+  content: "";
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-thunderstorm:before {
+  content: "";
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-lunar-eclipse:before {
+  content: "";
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-stars:before {
+  content: "";
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-storm-showers:before {
+  content: "";
+}
+
+/* line 41, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-thunderstorm:before {
+  content: "";
+}
+
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-cloudy-high:before {
+  content: "";
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-cloudy-high:before {
+  content: "";
+}
+
+/* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-night.scss */
+.wi-night-alt-partly-cloudy:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-cloud:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-cloudy:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-cloudy-gusts:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-cloudy-windy:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-fog:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-hail:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-rain:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-rain-mix:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-rain-wind:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-showers:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-sleet:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-snow:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-sprinkle:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-storm-showers:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-thunderstorm:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-snow-wind:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-snow:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-smog:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-smoke:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-lightning:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-raindrops:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-raindrop:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-dust:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-snowflake-cold:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-windy:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-strong-wind:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-sandstorm:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-earthquake:before {
+  content: "";
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-fire:before {
+  content: "";
+}
+
+/* line 30, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-flood:before {
+  content: "";
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-meteor:before {
+  content: "";
+}
+
+/* line 32, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-tsunami:before {
+  content: "";
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-volcano:before {
+  content: "";
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-hurricane:before {
+  content: "";
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-tornado:before {
+  content: "";
+}
+
+/* line 36, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-small-craft-advisory:before {
+  content: "";
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-gale-warning:before {
+  content: "";
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-storm-warning:before {
+  content: "";
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-hurricane-warning:before {
+  content: "";
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-neutral.scss */
+.wi-wind-direction:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-alien:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-celsius:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-fahrenheit:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-degrees:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-thermometer:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-thermometer-exterior:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-thermometer-internal:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-cloud-down:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-cloud-up:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-cloud-refresh:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-horizon:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-horizon-alt:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-sunrise:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-sunset:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-moonrise:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-moonset:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-refresh:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-refresh-alt:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-umbrella:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-barometer:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-humidity:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-na:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-misc.scss */
+.wi-train:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-new:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-cresent-1:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-cresent-2:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-cresent-3:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-cresent-4:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-cresent-5:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-cresent-6:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-first-quarter:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-gibbous-1:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-gibbous-2:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-gibbous-3:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-gibbous-4:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-gibbous-5:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waxing-gibbous-6:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-full:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-gibbous-1:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-gibbous-2:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-gibbous-3:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-gibbous-4:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-gibbous-5:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-gibbous-6:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-third-quarter:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-crescent-1:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-crescent-2:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-crescent-3:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-crescent-4:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-crescent-5:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-waning-crescent-6:before {
+  content: "";
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-new:before {
+  content: "";
+}
+
+/* line 30, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-cresent-1:before {
+  content: "";
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-cresent-2:before {
+  content: "";
+}
+
+/* line 32, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-cresent-3:before {
+  content: "";
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-cresent-4:before {
+  content: "";
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-cresent-5:before {
+  content: "";
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-cresent-6:before {
+  content: "";
+}
+
+/* line 36, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-first-quarter:before {
+  content: "";
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-gibbous-1:before {
+  content: "";
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-gibbous-2:before {
+  content: "";
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-gibbous-3:before {
+  content: "";
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-gibbous-4:before {
+  content: "";
+}
+
+/* line 41, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-gibbous-5:before {
+  content: "";
+}
+
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waxing-gibbous-6:before {
+  content: "";
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-full:before {
+  content: "";
+}
+
+/* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-gibbous-1:before {
+  content: "";
+}
+
+/* line 45, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-gibbous-2:before {
+  content: "";
+}
+
+/* line 46, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-gibbous-3:before {
+  content: "";
+}
+
+/* line 47, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-gibbous-4:before {
+  content: "";
+}
+
+/* line 48, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-gibbous-5:before {
+  content: "";
+}
+
+/* line 49, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-gibbous-6:before {
+  content: "";
+}
+
+/* line 50, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-third-quarter:before {
+  content: "";
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-crescent-1:before {
+  content: "";
+}
+
+/* line 52, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-crescent-2:before {
+  content: "";
+}
+
+/* line 53, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-crescent-3:before {
+  content: "";
+}
+
+/* line 54, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-crescent-4:before {
+  content: "";
+}
+
+/* line 55, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-crescent-5:before {
+  content: "";
+}
+
+/* line 56, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon.scss */
+.wi-moon-alt-waning-crescent-6:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-0:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-1:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-2:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-3:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-4:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-5:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-6:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-7:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-8:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-9:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-10:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-11:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-12:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-13:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-14:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-15:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-16:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-17:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-18:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-19:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-20:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-21:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-22:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-23:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-24:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-25:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-26:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss */
+.wi-moon-27:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-1:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-2:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-3:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-4:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-5:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-6:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-7:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-8:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-9:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-10:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-11:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-time.scss */
+.wi-time-12:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-up:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-up-right:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-right:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-down-right:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-down:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-down-left:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-left:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-direction.scss */
+.wi-direction-up-left:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-0:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-1:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-2:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-3:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-4:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-5:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-6:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-7:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-8:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-9:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-10:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-11:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/icon-classes/classes-beaufort.scss */
+.wi-wind-beaufort-12:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-0:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-1:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-2:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-3:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-4:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-5:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-6:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-7:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-8:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-9:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-10:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-11:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-12:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-13:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-14:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-15:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-16:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-17:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-18:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-19:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-20:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-21:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-22:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-23:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-24:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-25:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-26:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-27:before {
+  content: "";
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-28:before {
+  content: "";
+}
+
+/* line 30, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-29:before {
+  content: "";
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-30:before {
+  content: "";
+}
+
+/* line 32, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-31:before {
+  content: "";
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-32:before {
+  content: "";
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-33:before {
+  content: "";
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-34:before {
+  content: "";
+}
+
+/* line 36, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-35:before {
+  content: "";
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-36:before {
+  content: "";
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-37:before {
+  content: "";
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-38:before {
+  content: "";
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-39:before {
+  content: "";
+}
+
+/* line 41, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-40:before {
+  content: "";
+}
+
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-41:before {
+  content: "";
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-42:before {
+  content: "";
+}
+
+/* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-43:before {
+  content: "";
+}
+
+/* line 45, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-44:before {
+  content: "";
+}
+
+/* line 46, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-45:before {
+  content: "";
+}
+
+/* line 47, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-46:before {
+  content: "";
+}
+
+/* line 48, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-47:before {
+  content: "";
+}
+
+/* line 49, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-yahoo.scss */
+.wi-yahoo-3200:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-clear-day:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-clear-night:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-rain:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-snow:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-sleet:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-wind:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-fog:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-cloudy:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-partly-cloudy-day:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-partly-cloudy-night:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-hail:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-thunderstorm:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-forecast-io.scss */
+.wi-forecast-io-tornado:before {
+  content: "";
+}
+
+/* line 1, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-0:before,
+.wi-wmo4680-00:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-1:before,
+.wi-wmo4680-01:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-2:before,
+.wi-wmo4680-02:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-3:before,
+.wi-wmo4680-03:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-4:before,
+.wi-wmo4680-04:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-5:before,
+.wi-wmo4680-05:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-10:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-11:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-12:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-18:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-20:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-21:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-22:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-23:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-24:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-25:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-26:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-27:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-28:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-29:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-30:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-31:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-32:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-33:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-34:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-35:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-40:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-41:before {
+  content: "";
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-42:before {
+  content: "";
+}
+
+/* line 30, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-43:before {
+  content: "";
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-44:before {
+  content: "";
+}
+
+/* line 32, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-45:before {
+  content: "";
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-46:before {
+  content: "";
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-47:before {
+  content: "";
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-48:before {
+  content: "";
+}
+
+/* line 36, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-50:before {
+  content: "";
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-51:before {
+  content: "";
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-52:before {
+  content: "";
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-53:before {
+  content: "";
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-54:before {
+  content: "";
+}
+
+/* line 41, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-55:before {
+  content: "";
+}
+
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-56:before {
+  content: "";
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-57:before {
+  content: "";
+}
+
+/* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-58:before {
+  content: "";
+}
+
+/* line 45, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-60:before {
+  content: "";
+}
+
+/* line 46, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-61:before {
+  content: "";
+}
+
+/* line 47, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-62:before {
+  content: "";
+}
+
+/* line 48, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-63:before {
+  content: "";
+}
+
+/* line 49, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-64:before {
+  content: "";
+}
+
+/* line 50, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-65:before {
+  content: "";
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-66:before {
+  content: "";
+}
+
+/* line 52, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-67:before {
+  content: "";
+}
+
+/* line 53, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-68:before {
+  content: "";
+}
+
+/* line 54, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-70:before {
+  content: "";
+}
+
+/* line 55, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-71:before {
+  content: "";
+}
+
+/* line 56, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-72:before {
+  content: "";
+}
+
+/* line 57, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-73:before {
+  content: "";
+}
+
+/* line 58, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-74:before {
+  content: "";
+}
+
+/* line 59, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-75:before {
+  content: "";
+}
+
+/* line 60, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-76:before {
+  content: "";
+}
+
+/* line 61, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-77:before {
+  content: "";
+}
+
+/* line 62, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-78:before {
+  content: "";
+}
+
+/* line 63, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-80:before {
+  content: "";
+}
+
+/* line 64, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-81:before {
+  content: "";
+}
+
+/* line 65, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-82:before {
+  content: "";
+}
+
+/* line 66, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-83:before {
+  content: "";
+}
+
+/* line 67, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-84:before {
+  content: "";
+}
+
+/* line 68, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-85:before {
+  content: "";
+}
+
+/* line 69, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-86:before {
+  content: "";
+}
+
+/* line 70, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-87:before {
+  content: "";
+}
+
+/* line 71, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-89:before {
+  content: "";
+}
+
+/* line 72, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-90:before {
+  content: "";
+}
+
+/* line 73, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-91:before {
+  content: "";
+}
+
+/* line 74, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-92:before {
+  content: "";
+}
+
+/* line 75, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-93:before {
+  content: "";
+}
+
+/* line 76, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-94:before {
+  content: "";
+}
+
+/* line 77, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-95:before {
+  content: "";
+}
+
+/* line 78, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-96:before {
+  content: "";
+}
+
+/* line 79, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-wmo4680.scss */
+.wi-wmo4680-99:before {
+  content: "";
+}
+
+/* line 2, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-200:before {
+  content: "";
+}
+
+/* line 3, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-201:before {
+  content: "";
+}
+
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-202:before {
+  content: "";
+}
+
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-210:before {
+  content: "";
+}
+
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-211:before {
+  content: "";
+}
+
+/* line 7, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-212:before {
+  content: "";
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-221:before {
+  content: "";
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-230:before {
+  content: "";
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-231:before {
+  content: "";
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-232:before {
+  content: "";
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-300:before {
+  content: "";
+}
+
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-301:before {
+  content: "";
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-302:before {
+  content: "";
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-310:before {
+  content: "";
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-311:before {
+  content: "";
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-312:before {
+  content: "";
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-313:before {
+  content: "";
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-314:before {
+  content: "";
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-321:before {
+  content: "";
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-500:before {
+  content: "";
+}
+
+/* line 22, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-501:before {
+  content: "";
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-502:before {
+  content: "";
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-503:before {
+  content: "";
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-504:before {
+  content: "";
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-511:before {
+  content: "";
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-520:before {
+  content: "";
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-521:before {
+  content: "";
+}
+
+/* line 29, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-522:before {
+  content: "";
+}
+
+/* line 30, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-531:before {
+  content: "";
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-600:before {
+  content: "";
+}
+
+/* line 32, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-601:before {
+  content: "";
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-602:before {
+  content: "";
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-611:before {
+  content: "";
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-612:before {
+  content: "";
+}
+
+/* line 36, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-615:before {
+  content: "";
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-616:before {
+  content: "";
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-620:before {
+  content: "";
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-621:before {
+  content: "";
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-622:before {
+  content: "";
+}
+
+/* line 41, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-701:before {
+  content: "";
+}
+
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-711:before {
+  content: "";
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-721:before {
+  content: "";
+}
+
+/* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-731:before {
+  content: "";
+}
+
+/* line 45, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-741:before {
+  content: "";
+}
+
+/* line 46, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-761:before {
+  content: "";
+}
+
+/* line 47, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-762:before {
+  content: "";
+}
+
+/* line 48, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-771:before {
+  content: "";
+}
+
+/* line 49, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-781:before {
+  content: "";
+}
+
+/* line 50, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-800:before {
+  content: "";
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-801:before {
+  content: "";
+}
+
+/* line 52, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-802:before {
+  content: "";
+}
+
+/* line 53, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-803:before {
+  content: "";
+}
+
+/* line 54, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-803:before {
+  content: "";
+}
+
+/* line 55, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-804:before {
+  content: "";
+}
+
+/* line 56, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-900:before {
+  content: "";
+}
+
+/* line 57, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-901:before {
+  content: "";
+}
+
+/* line 58, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-902:before {
+  content: "";
+}
+
+/* line 59, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-903:before {
+  content: "";
+}
+
+/* line 60, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-904:before {
+  content: "";
+}
+
+/* line 61, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-905:before {
+  content: "";
+}
+
+/* line 62, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-906:before {
+  content: "";
+}
+
+/* line 63, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-957:before {
+  content: "";
+}
+
+/* line 65, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-200:before {
+  content: "";
+}
+
+/* line 66, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-201:before {
+  content: "";
+}
+
+/* line 67, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-202:before {
+  content: "";
+}
+
+/* line 68, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-210:before {
+  content: "";
+}
+
+/* line 69, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-211:before {
+  content: "";
+}
+
+/* line 70, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-212:before {
+  content: "";
+}
+
+/* line 71, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-221:before {
+  content: "";
+}
+
+/* line 72, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-230:before {
+  content: "";
+}
+
+/* line 73, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-231:before {
+  content: "";
+}
+
+/* line 74, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-232:before {
+  content: "";
+}
+
+/* line 75, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-300:before {
+  content: "";
+}
+
+/* line 76, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-301:before {
+  content: "";
+}
+
+/* line 77, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-302:before {
+  content: "";
+}
+
+/* line 78, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-310:before {
+  content: "";
+}
+
+/* line 79, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-311:before {
+  content: "";
+}
+
+/* line 80, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-312:before {
+  content: "";
+}
+
+/* line 81, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-313:before {
+  content: "";
+}
+
+/* line 82, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-314:before {
+  content: "";
+}
+
+/* line 83, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-321:before {
+  content: "";
+}
+
+/* line 84, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-500:before {
+  content: "";
+}
+
+/* line 85, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-501:before {
+  content: "";
+}
+
+/* line 86, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-502:before {
+  content: "";
+}
+
+/* line 87, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-503:before {
+  content: "";
+}
+
+/* line 88, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-504:before {
+  content: "";
+}
+
+/* line 89, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-511:before {
+  content: "";
+}
+
+/* line 90, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-520:before {
+  content: "";
+}
+
+/* line 91, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-521:before {
+  content: "";
+}
+
+/* line 92, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-522:before {
+  content: "";
+}
+
+/* line 93, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-531:before {
+  content: "";
+}
+
+/* line 94, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-600:before {
+  content: "";
+}
+
+/* line 95, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-601:before {
+  content: "";
+}
+
+/* line 96, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-602:before {
+  content: "";
+}
+
+/* line 97, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-611:before {
+  content: "";
+}
+
+/* line 98, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-612:before {
+  content: "";
+}
+
+/* line 99, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-615:before {
+  content: "";
+}
+
+/* line 100, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-616:before {
+  content: "";
+}
+
+/* line 101, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-620:before {
+  content: "";
+}
+
+/* line 102, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-621:before {
+  content: "";
+}
+
+/* line 103, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-622:before {
+  content: "";
+}
+
+/* line 104, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-701:before {
+  content: "";
+}
+
+/* line 105, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-711:before {
+  content: "";
+}
+
+/* line 106, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-721:before {
+  content: "";
+}
+
+/* line 107, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-731:before {
+  content: "";
+}
+
+/* line 108, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-741:before {
+  content: "";
+}
+
+/* line 109, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-761:before {
+  content: "";
+}
+
+/* line 110, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-762:before {
+  content: "";
+}
+
+/* line 111, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-781:before {
+  content: "";
+}
+
+/* line 112, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-800:before {
+  content: "";
+}
+
+/* line 113, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-801:before {
+  content: "";
+}
+
+/* line 114, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-802:before {
+  content: "";
+}
+
+/* line 115, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-803:before {
+  content: "";
+}
+
+/* line 116, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-804:before {
+  content: "";
+}
+
+/* line 117, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-900:before {
+  content: "";
+}
+
+/* line 118, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-902:before {
+  content: "";
+}
+
+/* line 119, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-903:before {
+  content: "";
+}
+
+/* line 120, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-904:before {
+  content: "";
+}
+
+/* line 121, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-906:before {
+  content: "";
+}
+
+/* line 122, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-day-957:before {
+  content: "";
+}
+
+/* line 124, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-200:before {
+  content: "";
+}
+
+/* line 125, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-201:before {
+  content: "";
+}
+
+/* line 126, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-202:before {
+  content: "";
+}
+
+/* line 127, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-210:before {
+  content: "";
+}
+
+/* line 128, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-211:before {
+  content: "";
+}
+
+/* line 129, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-212:before {
+  content: "";
+}
+
+/* line 130, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-221:before {
+  content: "";
+}
+
+/* line 131, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-230:before {
+  content: "";
+}
+
+/* line 132, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-231:before {
+  content: "";
+}
+
+/* line 133, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-232:before {
+  content: "";
+}
+
+/* line 134, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-300:before {
+  content: "";
+}
+
+/* line 135, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-301:before {
+  content: "";
+}
+
+/* line 136, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-302:before {
+  content: "";
+}
+
+/* line 137, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-310:before {
+  content: "";
+}
+
+/* line 138, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-311:before {
+  content: "";
+}
+
+/* line 139, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-312:before {
+  content: "";
+}
+
+/* line 140, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-313:before {
+  content: "";
+}
+
+/* line 141, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-314:before {
+  content: "";
+}
+
+/* line 142, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-321:before {
+  content: "";
+}
+
+/* line 143, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-500:before {
+  content: "";
+}
+
+/* line 144, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-501:before {
+  content: "";
+}
+
+/* line 145, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-502:before {
+  content: "";
+}
+
+/* line 146, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-503:before {
+  content: "";
+}
+
+/* line 147, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-504:before {
+  content: "";
+}
+
+/* line 148, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-511:before {
+  content: "";
+}
+
+/* line 149, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-520:before {
+  content: "";
+}
+
+/* line 150, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-521:before {
+  content: "";
+}
+
+/* line 151, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-522:before {
+  content: "";
+}
+
+/* line 152, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-531:before {
+  content: "";
+}
+
+/* line 153, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-600:before {
+  content: "";
+}
+
+/* line 154, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-601:before {
+  content: "";
+}
+
+/* line 155, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-602:before {
+  content: "";
+}
+
+/* line 156, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-611:before {
+  content: "";
+}
+
+/* line 157, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-612:before {
+  content: "";
+}
+
+/* line 158, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-615:before {
+  content: "";
+}
+
+/* line 159, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-616:before {
+  content: "";
+}
+
+/* line 160, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-620:before {
+  content: "";
+}
+
+/* line 161, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-621:before {
+  content: "";
+}
+
+/* line 162, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-622:before {
+  content: "";
+}
+
+/* line 163, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-701:before {
+  content: "";
+}
+
+/* line 164, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-711:before {
+  content: "";
+}
+
+/* line 165, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-721:before {
+  content: "";
+}
+
+/* line 166, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-731:before {
+  content: "";
+}
+
+/* line 167, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-741:before {
+  content: "";
+}
+
+/* line 168, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-761:before {
+  content: "";
+}
+
+/* line 169, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-762:before {
+  content: "";
+}
+
+/* line 170, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-781:before {
+  content: "";
+}
+
+/* line 171, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-800:before {
+  content: "";
+}
+
+/* line 172, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-801:before {
+  content: "";
+}
+
+/* line 173, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-802:before {
+  content: "";
+}
+
+/* line 174, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-803:before {
+  content: "";
+}
+
+/* line 175, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-804:before {
+  content: "";
+}
+
+/* line 176, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-900:before {
+  content: "";
+}
+
+/* line 177, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-902:before {
+  content: "";
+}
+
+/* line 178, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-903:before {
+  content: "";
+}
+
+/* line 179, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-904:before {
+  content: "";
+}
+
+/* line 180, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-906:before {
+  content: "";
+}
+
+/* line 181, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/icons/weather-icons/sass/mappings/wi-owm.scss */
+.wi-owm-night-957:before {
+  content: "";
+}
+
+/*# sourceMappingURL=../../../../css/icons/weather-icons/sass/weather-icons.min.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-misc.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-misc.scss"
+	],
+	"sourcesContent": [
+		"$alien: \"\\f075\";\n$celsius: \"\\f03c\";\n$fahrenheit: \"\\f045\";\n$degrees: \"\\f042\";\n$thermometer: \"\\f055\";\n$thermometer-exterior: \"\\f053\";\n$thermometer-internal: \"\\f054\";\n$cloud-down: \"\\f03d\";\n$cloud-up: \"\\f040\";\n$cloud-refresh: \"\\f03e\";\n$horizon: \"\\f047\";\n$horizon-alt: \"\\f046\";\n$sunrise: \"\\f051\";\n$sunset: \"\\f052\";\n$moonrise: \"\\f0c9\";\n$moonset: \"\\f0ca\";\n$refresh: \"\\f04c\";\n$refresh-alt: \"\\f04b\";\n$umbrella: \"\\f084\";\n$barometer: \"\\f079\";\n$humidity: \"\\f07a\";\n$na: \"\\f07b\";\n$train: \"\\f0cb\";"
+	],
+	"mappings": "",
+	"names": []
+}

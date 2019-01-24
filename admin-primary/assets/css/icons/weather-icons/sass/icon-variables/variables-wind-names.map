@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-wind-names.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-wind-names.scss"
+	],
+	"sourcesContent": [
+		"$n: \"\\f0b1\";\n$nne: \"\\f0b1\";\n$ne: \"\\f0b1\";\n$ene: \"\\f0b1\";\n$e: \"\\f0b1\";\n$ese: \"\\f0b1\";\n$se: \"\\f0b1\";\n$sse: \"\\f0b1\";\n$s: \"\\f0b1\";\n$ssw: \"\\f0b1\";\n$sw: \"\\f0b1\";\n$wsw: \"\\f0b1\";\n$w: \"\\f0b1\";\n$wnw: \"\\f0b1\";\n$nw: \"\\f0b1\";\n$nnw: \"\\f0b1\";\n$n: \"\\f0b1\";\n$nne: \"\\f0b1\";\n$ne: \"\\f0b1\";\n$ene: \"\\f0b1\";\n$e: \"\\f0b1\";\n$ese: \"\\f0b1\";\n$se: \"\\f0b1\";\n$sse: \"\\f0b1\";\n$s: \"\\f0b1\";\n$ssw: \"\\f0b1\";\n$sw: \"\\f0b1\";\n$wsw: \"\\f0b1\";\n$w: \"\\f0b1\";\n$wnw: \"\\f0b1\";\n$nw: \"\\f0b1\";\n$nnw: \"\\f0b1\";"
+	],
+	"mappings": "",
+	"names": []
+}

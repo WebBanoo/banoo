@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-day.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-day.scss"
+	],
+	"sourcesContent": [
+		"$day-sunny: \"\\f00d\";\n$day-cloudy: \"\\f002\";\n$day-cloudy-gusts: \"\\f000\";\n$day-cloudy-windy: \"\\f001\";\n$day-fog: \"\\f003\";\n$day-hail: \"\\f004\";\n$day-haze: \"\\f0b6\";\n$day-lightning: \"\\f005\";\n$day-rain: \"\\f008\";\n$day-rain-mix: \"\\f006\";\n$day-rain-wind: \"\\f007\";\n$day-showers: \"\\f009\";\n$day-sleet: \"\\f0b2\";\n$day-sleet-storm: \"\\f068\";\n$day-snow: \"\\f00a\";\n$day-snow-thunderstorm: \"\\f06b\";\n$day-snow-wind: \"\\f065\";\n$day-sprinkle: \"\\f00b\";\n$day-storm-showers: \"\\f00e\";\n$day-sunny-overcast: \"\\f00c\";\n$day-thunderstorm: \"\\f010\";\n$day-windy: \"\\f085\";\n$solar-eclipse: \"\\f06e\";\n$hot: \"\\f072\";\n$day-cloudy-high: \"\\f07d\";\n$day-light-wind: \"\\f0c4\";"
+	],
+	"mappings": "",
+	"names": []
+}

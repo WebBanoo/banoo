@@ -1,0 +1,2478 @@
+/*
+Template Name: Banoo - Admin Dashboard
+Author: WebBanoo
+Email: webbanoo@gmail.com
+File: Primary CSS
+*/
+/*===================================
+  Menu
+  ===================================*/
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.topbar {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.topbar .topbar-left {
+  float: left;
+  position: relative;
+  width: 240px;
+  z-index: 1;
+  background-color: #1f2f3f;
+}
+
+/* line 18, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.topbar .topbar-left-sm {
+  width: 180px;
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.topbar .topbar-left-sm + .navbar-custom {
+  margin-left: 180px;
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.logo {
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.logo h1 {
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 38, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.logo .icon-c-logo {
+  display: none;
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.navbar-custom {
+  background-color: #2A3F54;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0 10px 0 0;
+  margin-left: 240px;
+  min-height: 70px;
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.navbar-custom .nav-link {
+  padding: 0;
+  line-height: 70px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 58, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.navbar-custom .dropdown-toggle:after {
+  content: initial;
+}
+
+/* line 63, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.navbar-custom .menu-left {
+  overflow: hidden;
+}
+
+/* line 69, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.profile img {
+  border: 2px solid #edf0f0;
+  height: 36px;
+  width: 36px;
+}
+
+/* Notification */
+/* line 77, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list {
+  margin-left: 0 !important;
+}
+
+/* line 80, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .noti-title {
+  margin-bottom: 0;
+  width: auto;
+  padding: 12px 20px;
+}
+
+/* line 85, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .noti-title h5 {
+  margin: 0;
+}
+
+/* line 89, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .noti-title .label {
+  float: right;
+}
+
+/* line 94, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .noti-icon {
+  font-size: 18px;
+  padding: 0 12px;
+  vertical-align: middle;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 100, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .noti-icon-badge {
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  right: 8px;
+}
+
+/* line 106, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item {
+  padding: 10px 20px;
+}
+
+/* line 109, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item .notify-icon {
+  float: left;
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+/* line 119, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item .notify-icon img {
+  margin-top: 4px;
+}
+
+/* line 123, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item .notify-details {
+  margin-bottom: 0;
+  overflow: hidden;
+  margin-left: 45px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 129, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item .notify-details b {
+  font-weight: 500;
+}
+
+/* line 132, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item .notify-details small {
+  display: block;
+}
+
+/* line 135, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-item .notify-details span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+/* line 144, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .notify-all {
+  border-radius: 0 0 0.25rem 0.25rem;
+  margin: 0 0 -5px 0;
+  background-color: #eeeeee;
+}
+
+/* line 150, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.notification-list .profile-dropdown .notify-item {
+  padding: 4px 20px;
+}
+
+/* line 156, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.profile-dropdown {
+  width: 170px;
+}
+
+/* line 158, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.profile-dropdown i {
+  font-size: 17px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* line 163, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.profile-dropdown span {
+  vertical-align: middle;
+}
+
+/* line 168, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.nav-user {
+  padding: 0 12px !important;
+}
+
+/* line 171, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.nav-user img {
+  height: 36px;
+  width: 36px;
+}
+
+/* line 177, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.navbar-nav {
+  margin: 0;
+}
+
+/* line 181, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu {
+  bottom: 0;
+  top: 0;
+  width: 240px;
+  z-index: 2;
+}
+
+/* line 188, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu.left {
+  background: #2A3F54;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 70px;
+}
+
+/* line 196, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+body.fixed-left .side-menu.left {
+  bottom: 50px;
+  height: 100%;
+  margin-bottom: -70px;
+  margin-top: 0;
+  padding-bottom: 70px;
+  position: fixed;
+}
+
+/* line 206, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.content-page {
+  margin-left: 240px;
+  overflow: hidden;
+}
+
+/* line 211, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.content-page > .content {
+  margin-bottom: 60px;
+  margin-top: 70px;
+  padding: 20px 5px 15px 5px;
+}
+
+/* line 217, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.button-menu-mobile {
+  border: none;
+  color: #ffffff;
+  display: inline-block;
+  height: 70px;
+  width: 60px;
+  background-color: #2A3F54;
+  font-size: 24px;
+}
+
+/* line 227, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.sidebar-inner {
+  height: 100%;
+}
+
+/* line 231, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu, #sidebar-menu ul, #sidebar-menu li, #sidebar-menu a {
+  border: 0;
+  font-weight: normal;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+}
+
+/* line 242, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu {
+  padding-bottom: 30px;
+  padding-top: 22px;
+  width: 100%;
+}
+
+/* line 248, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu .nav > li > a .badge {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+/* line 255, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu a {
+  line-height: 1.3;
+}
+
+/* line 259, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul {
+  display: none;
+}
+
+/* line 261, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul li {
+  border-top: 0;
+}
+
+/* line 265, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul li.active a {
+  color: #3bafda;
+}
+
+/* line 269, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul a {
+  color: #ffffff;
+  display: block;
+  padding: 10px 20px 10px 65px;
+  font-size: 0.95rem;
+}
+
+/* line 275, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul a:hover {
+  color: #3bafda;
+}
+
+/* line 278, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul a i {
+  margin-right: 5px;
+}
+
+/* line 283, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul ul ul a {
+  padding-left: 80px;
+}
+
+/* line 289, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu .label {
+  margin-top: 2px;
+}
+
+/* line 292, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu .subdrop {
+  background: #334c65 !important;
+  border-left: 3px solid #3bafda;
+  color: #3bafda;
+}
+
+/* line 299, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu > ul > li > a {
+  color: #ffffff;
+  display: block;
+  padding: 12px 20px;
+  margin: 4px 0;
+  /*border-left: 3px solid $white;*/
+}
+
+/* line 305, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu > ul > li > a:hover {
+  color: #3bafda;
+  text-decoration: none;
+}
+
+/* line 311, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu > ul > li > a > span {
+  vertical-align: middle;
+}
+
+/* line 318, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul li .menu-arrow {
+  -webkit-transition: -webkit-transform .15s;
+  -o-transition: -o-transform .15s;
+  transition: transform .15s;
+  position: absolute;
+  right: 20px;
+  display: inline-block;
+  font-family: "Material Design Icons";
+  text-rendering: auto;
+  line-height: 24px;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  color: #98a6ad;
+}
+
+/* line 337, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul li .menu-arrow:before {
+  content: "\F142";
+}
+
+/* line 341, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul li a.subdrop .menu-arrow {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 349, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul li a i {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+}
+
+/* line 359, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu ul li a i.md {
+  font-size: 18px;
+}
+
+/* line 367, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu > ul > li > a > i.i-right {
+  float: right;
+  margin: 3px 0 0 0;
+}
+
+/* line 372, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#sidebar-menu > ul > li > a.active {
+  background: #334c65 !important;
+  border-left: 3px solid #3bafda;
+  color: #3bafda;
+}
+
+/* line 378, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.menu-title {
+  padding: 12px 20px !important;
+  letter-spacing: .035em;
+  pointer-events: none;
+  cursor: default;
+  font-size: 13px;
+  color: #98a6ad;
+}
+
+/* line 387, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.page-title {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1.1rem;
+  float: left;
+}
+
+/* line 394, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.page-title-box {
+  background: #ffffff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.03);
+  padding: 20px;
+  margin: -20px -20px 22px -20px;
+}
+
+/* line 400, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.page-title-box .breadcrumb {
+  margin: 0;
+  padding: 0;
+}
+
+/* Small Menu */
+/* line 407, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu-sm {
+  width: 180px;
+  text-align: center;
+}
+
+/* line 410, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu-sm #sidebar-menu > ul > li > a > i {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  margin: 0;
+}
+
+/* line 417, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu-sm #sidebar-menu ul ul a {
+  padding: 10px 20px 10px 20px;
+}
+
+/* line 423, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu-sm + .content-page .footer {
+  left: 180px;
+}
+
+/* line 428, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .side-menu-sm {
+  text-align: left;
+}
+
+/* line 432, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .side-menu-sm #sidebar-menu ul li a i {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-right: 15px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+/* line 442, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-menu-sm + .content-page {
+  margin-left: 180px;
+}
+
+/* Header 2 */
+/* line 447, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.page-header-2 {
+  background: #ffffff;
+  border-bottom: 1px solid #dee2e8;
+  margin: -20px -15px 22px -15px;
+  padding: 10px 20px 0 20px;
+}
+
+/* line 455, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .navbar-custom {
+  margin-left: 70px;
+}
+
+/* line 458, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .menu-title, #wrapper.enlarged .menu-arrow {
+  display: none !important;
+}
+
+/* line 463, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged #sidebar-menu ul ul {
+  border: 2px solid #eeeeee;
+  margin-top: -5px;
+  padding-top: 5px;
+  z-index: 9999;
+  background-color: #ffffff;
+}
+
+/* line 472, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu {
+  width: 70px;
+  z-index: 5;
+}
+
+/* line 476, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a {
+  padding: 15px 20px;
+  min-height: 52px;
+}
+
+/* line 480, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a:hover {
+  background: #eeeeee !important;
+}
+
+/* line 483, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a:active {
+  background: #eeeeee !important;
+}
+
+/* line 486, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a:focus {
+  background: #eeeeee !important;
+}
+
+/* line 490, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a i {
+  margin-right: 20px !important;
+  font-size: 20px;
+}
+
+/* line 495, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu .label {
+  position: absolute;
+  top: 5px;
+  left: 35px;
+  text-indent: 0;
+  display: block !important;
+  padding: .2em .6em .3em !important;
+}
+
+/* line 504, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+/* line 507, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > a {
+  position: relative;
+  width: 260px;
+  background: #eeeeee;
+  color: #3bafda;
+  border-color: #3bafda;
+}
+
+/* line 514, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul {
+  display: block;
+  left: 70px;
+  position: absolute;
+  width: 190px;
+}
+
+/* line 519, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul a {
+  background: #ffffff;
+  box-shadow: none;
+  padding-left: 15px;
+  position: relative;
+  width: 186px;
+  z-index: 6;
+}
+
+/* line 527, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul a:hover {
+  color: #3bafda;
+}
+
+/* line 534, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover a span {
+  display: inline;
+}
+
+/* line 541, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu li .show-menu + ul {
+  display: block;
+  left: 70px;
+  position: absolute;
+  width: 190px;
+}
+
+/* line 546, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu li .show-menu + ul a {
+  background: #ffffff;
+  box-shadow: none;
+  padding-left: 15px;
+  position: relative;
+  width: 186px;
+  z-index: 6;
+}
+
+/* line 554, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu li .show-menu + ul a:hover {
+  color: #3bafda;
+}
+
+/* line 561, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu a.subdrop {
+  color: #3bafda !important;
+}
+
+/* line 564, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li > ul {
+  display: none;
+}
+
+/* line 570, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li:hover > ul {
+  display: block;
+  left: 186px;
+  margin-top: -36px;
+  position: absolute;
+  width: 190px;
+}
+
+/* line 579, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li > a span.pull-right {
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  transform: rotate(270deg);
+}
+
+/* line 589, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li.active a {
+  color: #3bafda;
+}
+
+/* line 596, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li > a span {
+  display: none;
+  padding-left: 10px;
+}
+
+/* line 602, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .left.side-menu .user-details {
+  display: none;
+}
+
+/* line 606, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .content-page {
+  margin-left: 70px;
+}
+
+/* line 609, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .footer {
+  left: 70px;
+}
+
+/* line 613, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .topbar .topbar-left {
+  width: 70px !important;
+}
+
+/* line 616, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .topbar .topbar-left .logo span {
+  display: none;
+  opacity: 0;
+}
+
+/* line 620, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .topbar .topbar-left .logo .icon-c-logo {
+  display: block;
+  line-height: 70px;
+}
+
+/* line 630, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged #sidebar-menu > ul > li:hover > a.open :after {
+  display: none;
+}
+
+/* line 635, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged #sidebar-menu > ul > li:hover > a.active :after {
+  display: none;
+}
+
+/* line 641, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.enlarged .tips-box {
+  display: none;
+}
+
+/* line 647, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.tips-box .portlet {
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* line 654, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.user-details {
+  padding: 20px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+/* line 658, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.user-details img {
+  position: relative;
+  z-index: 9999;
+}
+
+/* line 662, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.user-details .user-info {
+  color: #444444;
+  margin-left: 60px;
+  position: relative;
+  z-index: 99999;
+}
+
+/* line 667, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.user-details .user-info a.dropdown-toggle {
+  color: #797979;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+/* line 678, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.right-bar-enabled .right-bar {
+  right: 0;
+}
+
+/* line 681, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+#wrapper.right-bar-enabled .left-layout {
+  left: 0;
+}
+
+/* Right sidebar */
+/* line 687, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-bar.right-bar {
+  float: right !important;
+  right: -266px;
+  top: 70px;
+  bottom: 0;
+  font-size: 0.9rem;
+}
+
+/* line 695, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.side-bar {
+  -moz-transition: all 200ms ease-out;
+  -webkit-transition: all 200ms ease-out;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
+  display: block;
+  float: left;
+  overflow: auto;
+  position: fixed;
+  transition: all 200ms ease-out;
+  width: 240px;
+}
+
+/* line 708, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.right-bar {
+  background: #ffffff !important;
+  z-index: 99 !important;
+}
+
+/* line 711, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.right-bar h4 {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* line 716, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.right-bar .nav-link {
+  font-size: 16px;
+}
+
+/* line 719, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.right-bar .tab-content {
+  padding: 20px;
+}
+
+/* line 724, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contact-list {
+  max-height: 600px;
+}
+
+/* line 727, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contact-list .list-group-item {
+  border: none;
+}
+
+/* line 729, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contact-list .list-group-item:hover {
+  background: #f5f5f5;
+}
+
+/* line 732, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contact-list .list-group-item a {
+  display: block;
+  width: 100%;
+}
+
+/* line 738, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contact-list i.offline {
+  color: #ef5350 !important;
+}
+
+/* line 742, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contact-list i.away {
+  color: #ffaa00;
+}
+
+/* line 748, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list .avatar {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  width: 30px;
+}
+
+/* line 753, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list .avatar img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+/* line 759, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list .list-group-item span.name {
+  color: #707780;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 130px;
+}
+
+/* line 772, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list i {
+  color: #dddddd;
+  float: right;
+  font-size: 9px;
+  line-height: 30px;
+}
+
+/* line 778, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list i.online {
+  color: #a0d269;
+}
+
+/* line 781, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list i.offline {
+  color: #ef5350 !important;
+}
+
+/* line 785, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.contacts-list i.away {
+  color: #ffaa00;
+}
+
+/* Seach */
+/* line 791, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search {
+  position: relative;
+  padding-top: 18px;
+}
+
+/* line 795, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search a {
+  position: absolute;
+  top: 18px;
+  left: 220px;
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  width: 34px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 806, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search a:hover {
+  color: #ffffff;
+}
+
+/* line 811, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search .form-control,
+.app-search .form-control:focus {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  height: 34px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  border-radius: 30px;
+  width: 200px;
+}
+
+/* line 827, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search input::-webkit-input-placeholder {
+  color: white;
+}
+
+/* line 830, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search input:-moz-placeholder {
+  color: white;
+}
+
+/* line 833, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search input::-moz-placeholder {
+  color: white;
+}
+
+/* line 836, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_menu.scss */
+.app-search input:-ms-input-placeholder {
+  color: white;
+}
+
+/* ===========
+   Common
+ =============*/
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+body {
+  background: #f5f5f5;
+  margin: 0;
+  color: #4c5667;
+  overflow-x: hidden !important;
+  font-size: 0.95rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+html {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  background: #f5f5f5;
+}
+
+/* line 21, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+* {
+  outline: none !important;
+}
+
+/* line 26, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+a:hover, a:active, a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+.container-alt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+.footer {
+  background-color: #f9f9f9;
+  bottom: 0;
+  color: #2a3142;
+  padding: 20px 30px;
+  position: absolute;
+  right: 0;
+  left: 240px;
+  text-align: center;
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+#wrapper {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 57, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+.page {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* line 64, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+.card-box {
+  padding: 20px;
+  border: 1px solid rgba(54, 64, 74, 0.08);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+/* line 75, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+.header-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+/* line 86, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_common.scss */
+.social-links li a {
+  -webkit-border-radius: 50%;
+  background: #EFF0F4;
+  border-radius: 50%;
+  color: #7A7676;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}
+
+/* ===========
+   Bootstrap-custom
+ =============*/
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.h1, h1 {
+  font-size: 36px;
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.h2, h2 {
+  font-size: 30px;
+}
+
+/* line 12, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.h3, h3 {
+  font-size: 24px;
+}
+
+/* line 16, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.h4, h4 {
+  font-size: 18px;
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.h5, h5 {
+  font-size: 14px;
+}
+
+/* line 24, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.h6, h6 {
+  font-size: 12px;
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+/* line 33, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+.col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3,
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11,
+.col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+.col-xs-7, .col-xs-8, .col-xs-9, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9,
+.col-10, .col-11, .col-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.breadcrumb {
+  background-color: transparent;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+/* line 50, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.dropdown-menu {
+  padding: 4px 0;
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+/* line 55, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.dropdown-menu > li > a {
+  padding: 6px 20px;
+}
+
+/* line 61, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #f2f2f2;
+  color: inherit;
+}
+
+/* line 66, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.dropdown-menu-lg {
+  max-width: 280px;
+}
+
+/* line 70, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+code {
+  color: #5d9cec;
+  border-radius: 4px;
+}
+
+/* line 75, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+code, pre {
+  background-color: #f4f8fb;
+}
+
+/* Background Colors */
+/* line 81, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-empty {
+  background: transparent !important;
+}
+
+/* line 85, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-primary {
+  background-color: #3bafda !important;
+}
+
+/* line 89, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-success {
+  background-color: #00b19d !important;
+}
+
+/* line 93, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-info {
+  background-color: #3ddcf7 !important;
+}
+
+/* line 97, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-warning {
+  background-color: #ffaa00 !important;
+}
+
+/* line 101, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-danger {
+  background-color: #ef5350 !important;
+}
+
+/* line 105, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-muted {
+  background-color: #F5F5F5 !important;
+}
+
+/* line 109, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-inverse {
+  background-color: #4c5667 !important;
+}
+
+/* line 113, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-purple {
+  background-color: #7266ba !important;
+}
+
+/* line 117, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-pink {
+  background-color: #f76397 !important;
+}
+
+/* line 121, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+/* Text Colors */
+/* line 126, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-white {
+  color: #ffffff;
+}
+
+/* line 130, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-danger {
+  color: #ef5350 !important;
+}
+
+/* line 134, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-muted {
+  color: #98a6ad !important;
+}
+
+/* line 138, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-primary {
+  color: #3bafda !important;
+}
+
+/* line 142, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-warning {
+  color: #ffaa00 !important;
+}
+
+/* line 146, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-success {
+  color: #00b19d !important;
+}
+
+/* line 150, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-info {
+  color: #3ddcf7 !important;
+}
+
+/* line 154, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-inverse {
+  color: #4c5667 !important;
+}
+
+/* line 158, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-pink {
+  color: #f76397 !important;
+}
+
+/* line 162, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-purple {
+  color: #7266ba !important;
+}
+
+/* line 166, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.text-dark {
+  color: #797979 !important;
+}
+
+/* Dropcap */
+/* line 172, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.dropcap {
+  font-size: 3.1em;
+}
+
+/* line 176, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_bootstrap-reset.scss */
+.dropcap, .dropcap-circle, .dropcap-square {
+  display: block;
+  float: left;
+  font-weight: 400;
+  line-height: 36px;
+  margin-right: 6px;
+  text-shadow: none;
+}
+
+/* ===========
+   Helper classes
+ =============*/
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.p-0 {
+  padding: 0 !important;
+}
+
+/* line 8, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.p-20 {
+  padding: 20px;
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.p-t-10 {
+  padding-top: 10px !important;
+}
+
+/* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.p-b-10 {
+  padding-bottom: 10px !important;
+}
+
+/* line 19, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-0 {
+  margin: 0 !important;
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-r-5 {
+  margin-right: 5px;
+}
+
+/* line 27, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-r-10 {
+  margin-right: 10px;
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-r-15 {
+  margin-right: 15px !important;
+}
+
+/* line 35, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-l-5 {
+  margin-left: 5px;
+}
+
+/* line 39, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-l-10 {
+  margin-left: 10px;
+}
+
+/* line 43, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-l-15 {
+  margin-left: 15px;
+}
+
+/* line 47, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-5 {
+  margin-top: 5px !important;
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-10 {
+  margin-top: 10px !important;
+}
+
+/* line 55, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-15 {
+  margin-top: 15px !important;
+}
+
+/* line 59, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-20 {
+  margin-top: 20px !important;
+}
+
+/* line 63, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-30 {
+  margin-top: 30px !important;
+}
+
+/* line 67, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-40 {
+  margin-top: 40px !important;
+}
+
+/* line 71, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-t-50 {
+  margin-top: 50px;
+}
+
+/* line 75, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-b-5 {
+  margin-bottom: 5px;
+}
+
+/* line 79, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+/* line 83, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+/* line 87, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+/* line 91, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-b-25 {
+  margin-bottom: 25px;
+}
+
+/* line 95, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-b-30 {
+  margin-bottom: 30px !important;
+}
+
+/* line 99, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.w-xs {
+  min-width: 80px;
+}
+
+/* line 103, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.w-sm {
+  min-width: 95px;
+}
+
+/* line 107, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.w-md {
+  min-width: 110px;
+}
+
+/* line 111, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.w-lg {
+  min-width: 140px;
+}
+
+/* line 115, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.m-h-50 {
+  min-height: 50px;
+}
+
+/* line 119, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.l-h-34 {
+  line-height: 34px !important;
+}
+
+/* line 123, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-light {
+  font-weight: 300;
+}
+
+/* line 127, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-normal {
+  font-weight: normal;
+}
+
+/* line 131, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-bold {
+  font-weight: bold;
+}
+
+/* line 135, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-13 {
+  font-size: 13px;
+}
+
+/* line 139, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-14 {
+  font-size: 14px;
+}
+
+/* line 143, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-15 {
+  font-size: 15px;
+}
+
+/* line 147, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-16 {
+  font-size: 16px;
+}
+
+/* line 151, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.font-18 {
+  font-size: 18px;
+}
+
+/* line 155, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.wrapper-md {
+  padding: 20px;
+}
+
+/* line 159, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.pull-in {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+/* line 164, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.b-0 {
+  border: none !important;
+}
+
+/* line 168, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.no-border {
+  border: none;
+}
+
+/* line 172, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.center-page {
+  float: none !important;
+  margin: 0 auto;
+}
+
+/* line 177, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.bx-s-0 {
+  box-shadow: none !important;
+}
+
+/* line 181, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.bx-shadow {
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 187, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.mx-box {
+  max-height: 380px;
+  min-height: 380px;
+}
+
+/* line 192, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.thumb-sm {
+  height: 32px;
+  width: 32px;
+}
+
+/* line 197, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.thumb-md {
+  height: 48px;
+  width: 48px;
+}
+
+/* line 202, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_helper.scss */
+.thumb-lg {
+  height: 88px;
+  width: 88px;
+}
+
+/* =============
+   Tree view page
+============= */
+/* line 5, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_treeview.scss */
+.jstree-default .jstree-clicked, .jstree-default .jstree-wholerow-clicked {
+  background: rgba(59, 175, 218, 0.4);
+  box-shadow: none;
+}
+
+/* line 10, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_treeview.scss */
+.jstree-default .jstree-hovered, .jstree-default .jstree-wholerow-hovered {
+  background: rgba(59, 175, 218, 0.2);
+  box-shadow: none;
+}
+
+/*
+Template Name: Banoo Dashboard
+Author: WebBanoo
+Email: webbanoo@gmail.com
+File: Responsive
+*/
+@media only screen and (max-width: 6000px) and (min-width: 700px) {
+  /* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .wrapper.right-bar-enabled .right-bar {
+    right: 0;
+    z-index: 99;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 15, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .email-msg {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  body {
+    overflow-x: hidden;
+  }
+  /* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .enlarged .left.side-menu {
+    margin-left: -75px;
+  }
+  /* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .content-page {
+    margin-left: 0px !important;
+  }
+  /* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .footer {
+    left: 0px !important;
+  }
+  /* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .mobile-sidebar {
+    left: 0px;
+  }
+  /* line 40, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .mobile-content {
+    left: 250px;
+    right: -250px;
+  }
+  /* line 44, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .navbar-nav .open .dropdown-menu {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    left: auto;
+    position: absolute;
+    right: 0;
+  }
+  /* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .todo-send {
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  /* line 55, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .chat-inputbar {
+    padding-left: 15px;
+  }
+  /* line 58, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .chat-send {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 63, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .dataTables_wrapper .col-xs-6 {
+    width: 100%;
+    text-align: left;
+  }
+  /* line 67, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .app-search {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 72, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .side-menu {
+    z-index: 10 !important;
+  }
+  /* line 75, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .button-menu-mobile {
+    display: block;
+  }
+  /* line 78, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .search-bar {
+    display: none !important;
+  }
+  /* line 81, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .user-detail {
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  /* line 86, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  #sidebar-menu {
+    overflow: auto;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 75px;
+  }
+  /* line 92, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .navbar-custom {
+    margin-left: 70px !important;
+  }
+  /* line 96, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .page-title-box .page-title {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 101, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .page-title-box .breadcrumb {
+    float: none !important;
+    font-size: 13px;
+  }
+  /* line 106, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .dropdown-menu-lg {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* line 111, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .hide-phone {
+    display: none !important;
+  }
+}
+
+/* Container-alt */
+@media (min-width: 768px) {
+  /* line 117, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .container-alt {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 122, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .container-alt {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 127, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .container-alt {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 419px) {
+  /* line 132, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .topbar-left {
+    width: 70px !important;
+  }
+  /* line 135, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .logo .icon-c-logo {
+    display: inline-block !important;
+    line-height: 58px !important;
+  }
+  /* line 139, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .logo span {
+    display: none !important;
+  }
+  /* line 142, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .content-page {
+    margin-left: 70px;
+  }
+  /* line 145, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .forced .side-menu.left {
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+  }
+  /* line 148, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_responsive.scss */
+  .enlarged .side-menu.left {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+/* ===========
+   Widgets
+ =============*/
+/* Inbox widget */
+/* line 6, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.inbox-widget .inbox-item {
+  border-bottom: 1px solid #fafafa;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+}
+
+/* line 11, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.inbox-widget .inbox-item .inbox-item-img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  width: 40px;
+}
+
+/* line 17, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.inbox-widget .inbox-item img {
+  width: 40px;
+}
+
+/* line 20, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.inbox-widget .inbox-item .inbox-item-author {
+  color: #2a3142;
+  display: block;
+  margin: 0;
+}
+
+/* line 25, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.inbox-widget .inbox-item .inbox-item-text {
+  color: #98a6ad;
+  display: block;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 31, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.inbox-widget .inbox-item .inbox-item-date {
+  color: #98a6ad;
+  font-size: 11px;
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+
+/* Chat widget */
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list {
+  list-style: none;
+  max-height: 330px;
+  padding: 0 20px;
+}
+
+/* line 46, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list li {
+  margin-bottom: 24px;
+}
+
+/* line 49, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .chat-avatar {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 40px;
+}
+
+/* line 54, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .chat-avatar img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+/* line 58, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .chat-avatar i {
+  font-size: 12px;
+  font-style: normal;
+}
+
+/* line 63, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .ctext-wrap {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #f5f5f5;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+}
+
+/* line 71, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .ctext-wrap i {
+  color: #2a3142;
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+}
+
+/* line 79, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .ctext-wrap p {
+  margin: 0;
+  padding-top: 3px;
+}
+
+/* line 83, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .ctext-wrap:after {
+  right: 100%;
+  top: 20%;
+  border: 5px solid rgba(213, 242, 239, 0);
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #f5f5f5;
+  margin-top: -5px;
+}
+
+/* line 96, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .conversation-text {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  margin-left: 12px;
+  width: 70%;
+}
+
+/* line 104, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .odd .chat-avatar {
+  float: right !important;
+}
+
+/* line 107, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .odd .conversation-text {
+  float: right !important;
+  margin-right: 12px;
+  text-align: right;
+  width: 70% !important;
+}
+
+/* line 113, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .odd p {
+  color: #f2f2f2;
+}
+
+/* line 116, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .odd .ctext-wrap {
+  background: #3bafda !important;
+}
+
+/* line 118, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .odd .ctext-wrap i {
+  color: #ffffff;
+}
+
+/* line 121, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.conversation-list .odd .ctext-wrap:after {
+  border-color: rgba(238, 238, 242, 0) !important;
+  border-left-color: #3bafda !important;
+  left: 100% !important;
+  top: 20% !important;
+}
+
+/* line 131, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.chat-send {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+/* line 134, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.chat-send button {
+  width: 100%;
+}
+
+/* line 139, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.chat-inputbar {
+  padding-left: 30px;
+}
+
+/* line 143, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+#todo-message {
+  font-size: 16px;
+}
+
+/* line 148, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.todo-list li {
+  border: 0px;
+  margin: 0px;
+  padding: 5px !important;
+  background: transparent !important;
+  display: block;
+}
+
+/* line 157, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.todo-send {
+  padding-left: 0px;
+}
+
+/* Widget-chart */
+/* line 164, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-chart ul li {
+  width: 31.5%;
+  display: inline-block;
+  padding: 0px;
+}
+
+/* line 172, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-panel {
+  padding: 30px 20px;
+  padding-left: 30px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 179, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-panel i {
+  font-size: 60px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  line-height: 60px;
+}
+
+/* line 191, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-user {
+  min-height: 112px;
+}
+
+/* line 193, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-user img {
+  height: 72px;
+  float: left;
+}
+
+/* line 198, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-user .wid-u-info {
+  margin-left: 90px;
+}
+
+/* line 201, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-user .wid-u-info p {
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 211, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-simple-chart .circliful-chart {
+  float: left;
+  margin-top: -5px;
+}
+
+/* line 218, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-icon i {
+  float: left;
+  font-size: 48px;
+}
+
+/* line 222, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-icon .wid-icon-info {
+  margin-left: 80px;
+}
+
+/* Widget (background-icon) */
+/* line 230, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* line 236, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon i {
+  font-size: 32px;
+  color: #ffffff !important;
+  line-height: 68px;
+}
+
+/* line 243, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-info {
+  background-color: rgba(61, 220, 247, 0.75);
+  border: 6px solid rgba(61, 220, 247, 0.3);
+}
+
+/* line 248, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-primary {
+  background-color: rgba(59, 175, 218, 0.75);
+  border: 6px solid rgba(59, 175, 218, 0.3);
+}
+
+/* line 253, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-pink {
+  background-color: rgba(247, 99, 151, 0.75);
+  border: 6px solid rgba(247, 99, 151, 0.3);
+}
+
+/* line 258, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-purple {
+  background-color: rgba(114, 102, 186, 0.75);
+  border: 6px solid rgba(114, 102, 186, 0.3);
+}
+
+/* line 263, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-success {
+  background-color: rgba(0, 177, 157, 0.75);
+  border: 6px solid rgba(0, 177, 157, 0.3);
+}
+
+/* line 268, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-warning {
+  background-color: rgba(255, 170, 0, 0.75);
+  border: 6px solid rgba(255, 170, 0, 0.3);
+}
+
+/* line 273, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-danger {
+  background-color: rgba(239, 83, 80, 0.75);
+  border: 6px solid rgba(239, 83, 80, 0.3);
+}
+
+/* line 278, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_widgets.scss */
+.widget-bg-color-icon .bg-icon-inverse {
+  background-color: rgba(76, 86, 103, 0.75);
+  border: 6px solid rgba(76, 86, 103, 0.3);
+}
+
+/* ===========
+   Buttons
+ =============*/
+/* line 4, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-primary, .btn-success, .btn-info, .btn-warning,
+.btn-danger, .btn-dark {
+  color: #ffffff;
+}
+
+/* line 9, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-primary {
+  background-color: #3bafda;
+  border: 1px solid #3bafda;
+}
+
+/* line 14, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
+.btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover,
+.open > .dropdown-toggle.btn-primary, .btn-outline-primary.active, .btn-outline-primary:active,
+.show > .btn-outline-primary.dropdown-toggle, .btn-outline-primary:hover, .btn-primary.active,
+.btn-primary:active, .show > .btn-primary.dropdown-toggle {
+  background-color: #28a5d4;
+  border: 1px solid #28a5d4;
+}
+
+/* line 23, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-success {
+  background-color: #00b19d;
+  border: 1px solid #00b19d;
+}
+
+/* line 28, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active,
+.btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover,
+.open > .dropdown-toggle.btn-success, .btn-outline-success.active, .btn-outline-success:active,
+.show > .btn-outline-success.dropdown-toggle, .btn-outline-success:hover, .btn-success.active,
+.btn-success:active, .show > .btn-success.dropdown-toggle {
+  background-color: #009886;
+  border: 1px solid #009886;
+}
+
+/* line 37, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-info {
+  background-color: #3ddcf7;
+  border: 1px solid #3ddcf7;
+}
+
+/* line 42, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.focus,
+.btn-info:active, .btn-info:focus, .btn-info:hover, .open > .dropdown-toggle.btn-info,
+.btn-outline-info.active, .btn-outline-info:active,
+.show > .btn-outline-info.dropdown-toggle, .btn-outline-info:hover, .btn-info.active, .btn-info:active,
+.show > .btn-info.dropdown-toggle {
+  background-color: #25d8f6;
+  border: 1px solid #25d8f6;
+}
+
+/* line 51, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-warning {
+  background-color: #ffaa00;
+  border: 1px solid #ffaa00;
+}
+
+/* line 56, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active,
+.btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover,
+.open > .dropdown-toggle.btn-warning, .btn-outline-warning.active, .btn-outline-warning:active,
+.show > .btn-outline-warning.dropdown-toggle, .btn-outline-warning:hover, .btn-warning.active,
+.btn-warning:active, .show > .btn-warning.dropdown-toggle {
+  background-color: #e69900;
+  border: 1px solid #e69900;
+  color: #ffffff;
+}
+
+/* line 66, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-danger {
+  background-color: #ef5350;
+  border: 1px solid #ef5350;
+}
+
+/* line 71, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-danger:active, .btn-danger:focus, .btn-danger:hover, .btn-danger.active,
+.btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover,
+.open > .dropdown-toggle.btn-danger, .btn-outline-danger.active, .btn-outline-danger:active,
+.show > .btn-outline-danger.dropdown-toggle, .btn-outline-danger:hover, .btn-danger.active,
+.btn-danger:active, .show > .btn-danger.dropdown-toggle {
+  background-color: #ed3c39;
+  border: 1px solid #ed3c39;
+}
+
+/* line 80, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-dark {
+  background-color: #2a3142;
+  border: 1px solid #2a3142;
+  color: #ffffff;
+}
+
+/* line 86, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active, .btn-dark.active, .btn-dark.focus,
+.btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open > .dropdown-toggle.btn-dark,
+.btn-outline-dark.active, .btn-outline-dark:active,
+.show > .btn-outline-dark.dropdown-toggle, .btn-outline-dark:hover {
+  background-color: #202532;
+  border: 1px solid #202532;
+  color: #ffffff;
+}
+
+/* line 95, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-dark.focus, .btn-dark:focus, .btn-outline-dark.focus, .btn-outline-dark:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(42, 49, 66, 0.3);
+  box-shadow: 0 0 0 2px rgba(42, 49, 66, 0.3);
+}
+
+/* line 100, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-link {
+  color: #2a3142;
+}
+
+/* line 103, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-link:hover {
+  color: #3bafda;
+}
+
+/* button Outline */
+/* line 109, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-outline-primary {
+  color: #3bafda;
+  border-color: #3bafda;
+}
+
+/* line 114, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-outline-success {
+  color: #00b19d;
+  border-color: #00b19d;
+}
+
+/* line 119, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-outline-info {
+  color: #3ddcf7;
+  border-color: #3ddcf7;
+}
+
+/* line 124, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-outline-warning {
+  color: #ffaa00;
+  border-color: #ffaa00;
+}
+
+/* line 129, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-outline-danger {
+  color: #ef5350;
+  border-color: #ef5350;
+}
+
+/* line 134, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-outline-dark {
+  color: #2a3142;
+  background-image: none;
+  background-color: transparent;
+  border-color: #2a3142;
+}
+
+/* line 141, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom {
+  border-bottom: 3px solid transparent;
+}
+
+/* line 145, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-default {
+  background-color: #f3f3f3;
+  border-bottom: 2px solid #cccccc !important;
+}
+
+/* line 150, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-primary {
+  border-bottom: 2px solid #2494be !important;
+}
+
+/* line 154, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-success {
+  border-bottom: 2px solid #007e70 !important;
+}
+
+/* line 158, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-info {
+  border-bottom: 2px solid #08aac6 !important;
+}
+
+/* line 162, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-warning {
+  border-bottom: 2px solid #cc8800 !important;
+}
+
+/* line 166, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-danger {
+  border-bottom: 2px solid #c71612 !important;
+}
+
+/* line 170, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-custom.btn-dark {
+  border-bottom: 2px solid #0b0c0f !important;
+}
+
+/* line 174, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.btn-rounded {
+  border-radius: 2em;
+  padding: 6px 18px;
+}
+
+/* line 179, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.fileupload {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 182, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_buttons.scss */
+.fileupload input.upload {
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  font-size: 20px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* ===========
+   Waves Effect
+ =============*/
+/*!
+ * Waves v0.6.0
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
+ * https://github.com/fians/Waves/blob/master/LICENSE
+ */
+/* line 13, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* line 34, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect .waves-ripple {
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  pointer-events: none;
+}
+
+/* line 62, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-light .waves-ripple {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+/* line 68, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-red .waves-ripple {
+  background-color: rgba(244, 67, 54, 0.7);
+}
+
+/* line 74, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-yellow .waves-ripple {
+  background-color: rgba(255, 235, 59, 0.7);
+}
+
+/* line 80, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-orange .waves-ripple {
+  background-color: rgba(255, 152, 0, 0.7);
+}
+
+/* line 86, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-purple .waves-ripple {
+  background-color: rgba(156, 39, 176, 0.7);
+}
+
+/* line 92, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-green .waves-ripple {
+  background-color: rgba(76, 175, 80, 0.7);
+}
+
+/* line 98, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-teal .waves-ripple {
+  background-color: rgba(0, 150, 136, 0.7);
+}
+
+/* line 104, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-effect.waves-primary .waves-ripple {
+  background-color: fade(#3bafda, 40%);
+}
+
+/* line 109, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+/* line 117, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-circle {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  text-align: center;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  border-radius: 50%;
+  -webkit-mask-image: none;
+}
+
+/* line 131, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-input-wrapper {
+  border-radius: 0.2em;
+  vertical-align: bottom;
+}
+
+/* line 134, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-input-wrapper .waves-button-input {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* line 142, C:/Users/ZBOOK/Desktop/Banoo Dashboard/admin-primary/assets/scss/_waves.scss */
+.waves-block {
+  display: block;
+}
+
+/*# sourceMappingURL=../css/style.map */

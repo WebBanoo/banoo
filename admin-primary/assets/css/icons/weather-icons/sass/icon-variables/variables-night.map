@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-night.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-night.scss"
+	],
+	"sourcesContent": [
+		"$night-clear: \"\\f02e\";\n$night-alt-cloudy: \"\\f086\";\n$night-alt-cloudy-gusts: \"\\f022\";\n$night-alt-cloudy-windy: \"\\f023\";\n$night-alt-hail: \"\\f024\";\n$night-alt-lightning: \"\\f025\";\n$night-alt-rain: \"\\f028\";\n$night-alt-rain-mix: \"\\f026\";\n$night-alt-rain-wind: \"\\f027\";\n$night-alt-showers: \"\\f029\";\n$night-alt-sleet: \"\\f0b4\";\n$night-alt-sleet-storm: \"\\f06a\";\n$night-alt-snow: \"\\f02a\";\n$night-alt-snow-thunderstorm: \"\\f06d\";\n$night-alt-snow-wind: \"\\f067\";\n$night-alt-sprinkle: \"\\f02b\";\n$night-alt-storm-showers: \"\\f02c\";\n$night-alt-thunderstorm: \"\\f02d\";\n$night-cloudy: \"\\f031\";\n$night-cloudy-gusts: \"\\f02f\";\n$night-cloudy-windy: \"\\f030\";\n$night-fog: \"\\f04a\";\n$night-hail: \"\\f032\";\n$night-lightning: \"\\f033\";\n$night-partly-cloudy: \"\\f083\";\n$night-rain: \"\\f036\";\n$night-rain-mix: \"\\f034\";\n$night-rain-wind: \"\\f035\";\n$night-showers: \"\\f037\";\n$night-sleet: \"\\f0b3\";\n$night-sleet-storm: \"\\f069\";\n$night-snow: \"\\f038\";\n$night-snow-thunderstorm: \"\\f06c\";\n$night-snow-wind: \"\\f066\";\n$night-sprinkle: \"\\f039\";\n$night-storm-showers: \"\\f03a\";\n$night-thunderstorm: \"\\f03b\";\n$lunar-eclipse: \"\\f070\";\n$stars: \"\\f077\";\n$storm-showers: \"\\f01d\";\n$thunderstorm: \"\\f01e\";\n$night-alt-cloudy-high: \"\\f07e\";\n$night-cloudy-high: \"\\f080\";\n$night-alt-partly-cloudy: \"\\f081\";"
+	],
+	"mappings": "",
+	"names": []
+}

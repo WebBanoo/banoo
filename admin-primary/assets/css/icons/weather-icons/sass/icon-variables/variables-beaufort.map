@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-beaufort.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-beaufort.scss"
+	],
+	"sourcesContent": [
+		"$wind-beaufort-0: \"\\f0b7\";\n$wind-beaufort-1: \"\\f0b8\";\n$wind-beaufort-2: \"\\f0b9\";\n$wind-beaufort-3: \"\\f0ba\";\n$wind-beaufort-4: \"\\f0bb\";\n$wind-beaufort-5: \"\\f0bc\";\n$wind-beaufort-6: \"\\f0bd\";\n$wind-beaufort-7: \"\\f0be\";\n$wind-beaufort-8: \"\\f0bf\";\n$wind-beaufort-9: \"\\f0c0\";\n$wind-beaufort-10: \"\\f0c1\";\n$wind-beaufort-11: \"\\f0c2\";\n$wind-beaufort-12: \"\\f0c3\";"
+	],
+	"mappings": "",
+	"names": []
+}

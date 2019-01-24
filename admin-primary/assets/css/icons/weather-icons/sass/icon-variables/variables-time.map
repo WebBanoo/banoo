@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-time.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-time.scss"
+	],
+	"sourcesContent": [
+		"$time-1: \"\\f08a\";\n$time-2: \"\\f08b\";\n$time-3: \"\\f08c\";\n$time-4: \"\\f08d\";\n$time-5: \"\\f08e\";\n$time-6: \"\\f08f\";\n$time-7: \"\\f090\";\n$time-8: \"\\f091\";\n$time-9: \"\\f092\";\n$time-10: \"\\f093\";\n$time-11: \"\\f094\";\n$time-12: \"\\f089\";"
+	],
+	"mappings": "",
+	"names": []
+}

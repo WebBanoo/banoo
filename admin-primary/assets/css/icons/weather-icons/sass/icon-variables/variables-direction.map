@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../../../../scss/icons/weather-icons/sass/icon-variables/variables-direction.css",
+	"sources": [
+		"../../../../../scss/icons/weather-icons/sass/icon-variables/variables-direction.scss"
+	],
+	"sourcesContent": [
+		"$direction-up: \"\\f058\";\n$direction-up-right: \"\\f057\";\n$direction-right: \"\\f04d\";\n$direction-down-right: \"\\f088\";\n$direction-down: \"\\f044\";\n$direction-down-left: \"\\f043\";\n$direction-left: \"\\f048\";\n$direction-up-left: \"\\f087\";"
+	],
+	"mappings": "",
+	"names": []
+}
