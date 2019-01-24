@@ -39,4 +39,4 @@ I hope you will like it :D.
 
 
 Feel free to make any contribution in BTC:
-
+💡 1MbqGwUtCF954VXwYxAyYKYViqq3NuGomv
