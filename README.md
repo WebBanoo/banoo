@@ -25,7 +25,9 @@ Here is a screenshot how it looks like until now:
 
 ### Demo Online:
 
-*Will be available soon.*
+```html
+[Click here !](https://webbanoo.github.io/banoo/admin-primary/)
+```
 
 
 
